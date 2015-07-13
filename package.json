@@ -1,0 +1,34 @@
+{
+  "name": "jspm-jasmine-spy",
+  "version": "1.0.0",
+  "description": "JSPM Karma Jasmine spy issue reproduction",
+  "repository": "",
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "jspm": "^0.15.7",
+    "karma": "^0.12.37",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^1.1.5",
+    "karma-sourcemap-loader": "^0.3.5"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
