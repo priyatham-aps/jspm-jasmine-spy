@@ -3,7 +3,7 @@ module.exports = function(config) {
 	'use strict';
 	config.set({
 		autoWatch : true,
-		singleRun : true,
+		singleRun : false,
 
 		frameworks : ['jspm', 'jasmine'],
 
